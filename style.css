@@ -1,0 +1,103 @@
+.navbar .navbar-light{
+    background-color: #fff;
+    border-bottom: 1px solid #f2f1f1;
+}
+
+
+@media(min-width:992px){
+    .navbar{
+        font-size: .875rem;
+    }
+    .navbar-expand-lg{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+   .navbar-expand-lg .navbar-toggler{
+    display: none;
+   } 
+  
+}
+#main{
+    display: block;
+}
+.bg-light{
+    background-color: rgb(204, 198, 198);
+}
+.display-3{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+  
+  
+  
+}
+.lead{
+    font-weight: 300;
+}
+figcaption {
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.img-rising:hover img{
+    scale: 1.1;
+    
+} 
+.img-rising {
+    overflow: hidden;
+}
+.img-rising img{
+    transition: all .3s ease;
+}
+img{
+    display: block;
+}
+.img-top{
+    overflow: hidden;
+}
+#main-contant{
+    background-color: #ff9285;
+    padding-bottom: 50px;
+    
+}
+#main-contant h2{
+    margin-bottom: 1rem;
+    font-family: "Playfair Display",serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#main-contant p{
+    font-weight: 350;
+    margin-bottom: 1.5rem !important;
+    letter-spacing: 1px;
+}
+@media (min-width:768px){
+   .row{
+    justify-content: space-between;
+   }
+}
+.link-secondary{
+    text-decoration: none;
+    font-size: 20px;
+}
+h6{
+    font-size: 30px;
+}
+.text-secondary{
+    font-size: 20px;
+}
+@media (max-width:996px){
+    .navbar ul{display: none;
+
+    }
+    .navbar-toggler{
+        d
+        align-items: center;
+        
+    }
+    .focus{
+        display: flex;
+        margin-right: 20px;
+    }
+    
+}
